@@ -1,27 +1,35 @@
 {
   "expo": {
-    "name": "Finance-App",
-    "slug": "Finance-App",
+    "name": "Finance Calculator",
+    "slug": "finance-calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": ""
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.owais43.financecalculator"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/logo1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73658928-cfda-444d-8301-69f1bee8870d"
+      }
+    },
+    "owner": "owais43"
   }
 }
